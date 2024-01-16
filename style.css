@@ -86,9 +86,12 @@ nav a {
       margin: 3px 0;
     }
 #logo h1 span{
-    font-family: ubuntu;
+    font-family: ubuntuBold;
     color:var(--bg-button);
   }
+#logo h1{
+  font-family: ubuntuBold;
+}
 .selected{
   color:var(--bg-button);
 }
@@ -562,8 +565,58 @@ background: rgba(233, 68, 68, 0.05);
 .discount span{
   font-size: 2rem;
 }
-
-
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 5rem 0rem;
+  gap:2rem;
+}
+.hero-footer{
+  display: flex;
+  gap:1rem;
+  align-items: center;
+}
+.hero-footer h1{
+  font-family: ubuntuBold;
+  font-size: 2.5rem;
+  color:var(--text-title);
+}
+.hero-footer h1 span{
+  font-family: ubuntuBold;
+  font-size: 2.5rem;
+  color:var(--bg-button);
+}
+footer p{
+  color:var(--text-color-secondary);
+  line-height: 1.5;
+  max-width: 900px;
+  text-align: center;
+}
+.social{
+  display: flex;
+  gap:1.5rem;
+  padding-bottom: 2rem;
+  
+  
+}
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-github{
+  font-size: 2rem;
+  color:var(--text-title);
+ 
+}
+.border{
+  background-color: rgb(207, 207, 207);
+  height: 2px;
+  width: 900px;
+  border-radius: 1.5rem;
+}
+footer span{
+  padding-top: 1rem;
+  color:var(--text-color-secondary);
+}
 
 
 
@@ -692,5 +745,10 @@ background: rgba(233, 68, 68, 0.05);
      .hotel, .service, .price{
       width:475px;
      }
-     
+     footer{
+      padding: 3rem 2rem;
+     }
+     .border{
+      width: 500px;
+     }
 }
