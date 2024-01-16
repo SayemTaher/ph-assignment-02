@@ -153,7 +153,7 @@ main{
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.314);
 }
-#hero-form input[type="text"],[type="Submit"],select{
+#hero-form input[type="text"],[type="Submit"]{
   padding: 1rem;
   width: 150px;
   border: none;
@@ -161,6 +161,18 @@ main{
   color:var(--text-color-secondary);
   cursor: pointer;
 }
+
+@supports (-webkit-appearance:none) {
+   select {
+      padding: 1rem;
+      width: 150px;
+      border: none;
+      border-radius: 0.5rem;
+      color:var(--text-color-secondary);
+      cursor: pointer;
+   }
+}
+
 #hero-form button{
   background-color: var(--bg-button);
   color:var(--bg-primary);
