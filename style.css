@@ -12,6 +12,10 @@ a{
 }
 button{
     border:none;
+    cursor: pointer;
+}
+button:hover{
+  transform: scale(0.97);
 }
 
 :root{
@@ -36,9 +40,9 @@ header {
       background-color:var(--bg-primary);
       color: var(--text-title);
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
-      padding:1rem 2.5rem;
+      padding:1rem 0rem;
       position: fixed;
       width: 100%;
       z-index: 99999;
@@ -955,15 +959,18 @@ footer span{
       width: 550px;
       justify-content: center;
       align-items: center;
+      border-radius: 0.5rem;
      } 
      .location-two{
       width:550px;
       justify-content: center;
+      border-radius: 0.5rem;
      }
      .location-three{
       width: 550px;
       justify-content: center;
       align-items: center;
+      border-radius: 0.5rem;
      }
      .loc-det{
       margin-left: 4rem;
