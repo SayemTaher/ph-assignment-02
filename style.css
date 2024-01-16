@@ -103,7 +103,7 @@ main{
   align-items: center;
 }
 .hero{
-  background-image: url('/Group\ 13\ \(1\)\ \(1\).png');
+  background-image: url('Group\ 13\ \(1\)\ \(1\).png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.3);
   background-position: center;
@@ -262,7 +262,7 @@ main{
 }
 .maldive{
   grid-area: mal;
-  background-image: url('/Rectangle\ 5.png');
+  background-image: url('Rectangle\ 5.png');
   background-repeat: no-repeat;
   background-position: center;
   width: 573px;
@@ -280,7 +280,7 @@ main{
 }
 .indonesia{
   grid-area: ind;
-  background-image: url('/Rectangle\ 8.png');
+  background-image: url('Rectangle\ 8.png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.2);
   background-position: center;
@@ -300,7 +300,7 @@ main{
 }
 .srilanka{
   grid-area: sri;
-  background-image: url('/Rectangle\ 6.png');
+  background-image: url('Rectangle\ 6.png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.2);
   background-position: center;
@@ -321,7 +321,7 @@ main{
 }
 .north{
   grid-area: nor;
-  background-image: url('/Rectangle\ 7.png');
+  background-image: url('Rectangle\ 7.png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.2);
   background-position: center;
@@ -341,7 +341,7 @@ main{
 }
 .kashmir{
   grid-area: kas;
-  background-image: url('/Rectangle\ 9.png');
+  background-image: url('Rectangle\ 9.png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.2);
   background-position: center;
@@ -362,7 +362,7 @@ main{
 }
 .bangladesh{
   grid-area: ban;
-  background-image: url('/Rectangle\ 11.png');
+  background-image: url('Rectangle\ 11.png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.2);
   background-position: center;
@@ -382,7 +382,7 @@ main{
 }
 .bandarban{
   grid-area: bad;
-  background-image: url('/Rectangle\ 10.png');
+  background-image: url('Rectangle\ 10.png');
   background-repeat: no-repeat;
   background-color:  rgba(0, 0, 0, 0.2);
   background-position: center;
@@ -498,7 +498,7 @@ background: rgba(233, 68, 68, 0.05);
 }
 .deal{
   
-  background-image: url('/Rectangle\ 8\ \(1\).png');
+  background-image: url('Rectangle\ 8\ \(1\).png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;width:672px;
