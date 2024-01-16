@@ -22,15 +22,15 @@ button{
 }
 @font-face {
     font-family:ubuntuNormal ;
-    src: url('/circularstd-book-webfont.woff');
+    src: url('circularstd-book-webfont.woff');
 }
 @font-face {
     font-family:ubuntuBold;
-    src: url('/CircularStd-Bold.woff');
+    src: url('CircularStd-Bold.woff');
 }
 @font-face {
     font-family: ubuntu;
-    src: url('/Ubuntu-Medium.woff');
+    src: url('Ubuntu-Medium.woff');
 }
 header {
       background-color:var(--bg-primary);
